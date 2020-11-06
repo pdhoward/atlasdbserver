@@ -2,7 +2,7 @@
 
 This code sample provides an example of an express server connecting with Atlas.
 
-The code provides a pattern for least recently used (lru) caching strategy for handling multiple (and expensive) database connections on a high traffic platform
+We recommend employing a least recently used (lru) caching strategy for handling multiple (and expensive) database connections on a high traffic platform
 
 ## Usage
 * Register an account on Mongo Atlas
