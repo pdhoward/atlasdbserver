@@ -2,7 +2,7 @@
 const mongoose =            require("mongoose");
 const { g, b, gr, r, y } =  require('../console')
 const db =                  require("../models");
-const {catalogSeed} =         require("../data")
+const {catalogSeed} =       require("../data")
 
 mongoose.connect(process.env.ATLAS_URI || "mongodb://localhost/uncc", {
   useNewUrlParser: true, 
